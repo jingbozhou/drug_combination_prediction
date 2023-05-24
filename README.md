@@ -1,5 +1,21 @@
 # Prediction of anticancer drug combinations and their therapeutic effects by machine learning
 
+**********************************************************************
+**                                                                  **
+**                                                                  **
+**                                                                  **
+**              README for drug combination predictor               **
+**                                                                  **
+**                                                                  **
+**                                                                  **
+**********************************************************************
+
+The following instructions are for Linux operating system and Windows is currently not supported. All command lines start with a "$" symbol, which indicates Bash shell command-line prompt: these "$" symbols should be omitted when entering commands into your shell.
+
+I. INSTALLATION
+The following software o be present in the system before attempting to use .
+
+
 
 Brief training and predicting process:
 1. Download all files to your folder.
