@@ -1,5 +1,5 @@
 # Prediction of anticancer drug combinations and their therapeutic effects by machine learning
-Prediction of anticancer drug combinations and their therapeutic effects by machine learning
+
 
 Brief training and predicting process:
 1. Download all files to your folder.
