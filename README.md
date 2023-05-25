@@ -34,18 +34,20 @@ Caution: Activate the environment before using our predictor
 ### 1. For training drug combination predictor:
 Get training model. It needs around 150G space to store training model.
     
-    $ python 1-get_train_model.py
+    $ python <PATH_TO_Predictor>/drug_combination_prediction/1-get_train_model.py
 
+### 2. For predicting effect of drug combination:
 
+The input data should be in the csv format file delimited by commas. The first and second columns are drug name, and three column is cell line name
 
-Brief training and predicting process:
-1. 
+Or you can read the example in the following file:
+    
+    $ less <PATH_TO_Predictor>/drug_combination_prediction/example_input.csv
 
-2. Download Data.tar.gz (https://drive.google.com/file/d/1lDfHnsby79DQoabxNGfQbZFCc8SwTwJy/view?usp=share_link) and put them into CombDrugModule folder, uncompress it.
+And then:
+    
+    $ python <PATH_TO_Predictor>/drug_combination_prediction/2-get_predict_result.py input_file output_file
 
-3. `python 1-get_train_model.py`: Get training model. It needs around 150G space to store training model.
-
-4. `python 2-get_predict_result.py example_input.csv example_output.csv`: Get predict result.
-
-
-The detail of installation package and process will publish soon.
+Example:
+    
+    $ python <PATH_TO_Predictor>/drug_combination_prediction/2-get_predict_result.py <PATH_TO_Predictor>/drug_combination_prediction/example_input.csv <PATH_TO_Predictor>/drug_combination_prediction/example_out.csv 
