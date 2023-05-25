@@ -4,12 +4,15 @@ The following instructions are for Linux operating system and Windows is current
 
 ## I. INSTALLATION
 
-The following software o be present in the system before attempting to use .
+The following data and software needs to be present in the your system before attempting to use drug combination predictor.
+
+### 1. 
+Download all files to your folder.
 
 ### Anaconda3 (https://www.anaconda.com/download)
 
 Brief training and predicting process:
-1. Download all files to your folder.
+1. 
 
 2. Download Data.tar.gz (https://drive.google.com/file/d/1lDfHnsby79DQoabxNGfQbZFCc8SwTwJy/view?usp=share_link) and put them into CombDrugModule folder, uncompress it.
 
