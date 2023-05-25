@@ -36,7 +36,7 @@ Get training model. It needs around 150G space to store training model.
     
     $ python <PATH_TO_Predictor>/drug_combination_prediction/1-get_train_model.py
 
-### 2. For predicting effect of drug combination:
+### 2. For predicting effect of drug combinations:
 
 The input data should be in the csv format file delimited by commas. The first and second columns are drug name, and three column is cell line name
 
