@@ -6,8 +6,15 @@ The following instructions are for Linux operating system and Windows is current
 
 The following data and software needs to be present in the your system before attempting to use drug combination predictor.
 
-### 1. 
-Download all files to your folder.
+### 1. Download all files in this project to your folder.
+    $`git clone https://github.com/jingbozhou/drug_combination_prediction.git`
+    
+### 2. Download required data
+    Download Data.tar.gz (https://drive.google.com/file/d/1lDfHnsby79DQoabxNGfQbZFCc8SwTwJy/view?usp=share_link) and put them into CombDrugModule folder, uncompress it.
+    $`mv Data.tar.gz <PATH_TO_Predictor>/drug_combination_prediction/`
+    $`cd <PATH_TO_Predictor>/drug_combination_prediction/`
+    $`tar zvxf Data.tar.gz`
+
 
 ### Anaconda3 (https://www.anaconda.com/download)
 
