@@ -10,7 +10,7 @@ The following data and software needs to be present in the your system before at
     $ git clone https://github.com/jingbozhou/drug_combination_prediction.git
     
 ### 2. Download required data
-    Download Data.tar.gz (https://drive.google.com/file/d/1lDfHnsby79DQoabxNGfQbZFCc8SwTwJy/view?usp=share_link) and put them into CombDrugModule folder, uncompress it.
+Download Data.tar.gz (https://drive.google.com/file/d/1lDfHnsby79DQoabxNGfQbZFCc8SwTwJy/view?usp=share_link) and put them into CombDrugModule folder, uncompress it.
     
     $ mv Data.tar.gz <PATH_TO_Predictor>/drug_combination_prediction/
     $ cd <PATH_TO_Predictor>/drug_combination_prediction/
