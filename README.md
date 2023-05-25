@@ -6,7 +6,7 @@ I. INSTALLATION
 
 The following software o be present in the system before attempting to use .
 
-
+*** Anaconda3 (https://www.anaconda.com/download)
 
 Brief training and predicting process:
 1. Download all files to your folder.
