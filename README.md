@@ -28,10 +28,12 @@ Our drug combination predictor is based on Python 3, so we recommend using Anaco
 
 ## II. USAGE
 Caution: Activate the environment before using our predictor
+    
     $ conda activate drugCombPro
 
 ### 1. For training drug combination predictor:
 Get training model. It needs around 150G space to store training model.
+    
     $ python 1-get_train_model.py
 
 
