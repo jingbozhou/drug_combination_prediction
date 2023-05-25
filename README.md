@@ -12,12 +12,29 @@ The following data and software needs to be present in the your system before at
 ### 2. Download required data
 Download Data.tar.gz (https://drive.google.com/file/d/1lDfHnsby79DQoabxNGfQbZFCc8SwTwJy/view?usp=share_link) and put them into CombDrugModule folder, uncompress it.
     
-    $ mv Data.tar.gz <PATH_TO_Predictor>/drug_combination_prediction/
-    $ cd <PATH_TO_Predictor>/drug_combination_prediction/
+    $ mv Data.tar.gz <PATH_TO_Predictor>/drug_combination_prediction/CombDrugModule/
+    $ cd <PATH_TO_Predictor>/drug_combination_prediction/CombDrugModule/
     $ tar zvxf Data.tar.gz
 
 
-### Anaconda3 (https://www.anaconda.com/download)
+### 3. Download Anaconda3 (https://www.anaconda.com/download)
+Our drug combination predictor is based on Python 3, so we recommend using Anaconda3. All required environment and package located in `requireEnvironment` folder.
+
+    $ cd <PATH_TO_Predictor>/drug_combination_prediction/requireEnvironment/
+    $ conda env create -f environment_drugCombPro.yml
+    $ environment_infomax.yml
+    
+
+
+## II. USAGE
+Caution: Activate the environment before using our predictor
+    $ conda activate drugCombPro
+
+### 1. For training drug combination predictor:
+Get training model. It needs around 150G space to store training model.
+    $ python 1-get_train_model.py
+
+
 
 Brief training and predicting process:
 1. 
